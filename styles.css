@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: white;
+    background-color: RGB(31 41 55);
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-grow: 1;
+    
+
+}
+
+
+.links {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
