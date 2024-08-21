@@ -49,6 +49,18 @@ html {
   width: 50%;
 }
 
+h1 {
+  font-size: 48px;
+  font-weight: extra bold;
+  color: #f9faf8;
+  margin-bottom: 0;
+}
+
+#podpisik {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
 #button1 {
   border-radius: 8px;
   padding: 0.75rem 2rem;
@@ -76,8 +88,9 @@ html {
   display: flex;
   flex-direction: row;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 36px;
   justify-content: center;
+  color: #1f2937;
 }
 
 .item-container {
@@ -113,21 +126,35 @@ html {
 
 .quote-container {
   display: flex;
-  border: solid 3px red;
   padding-top: 10%;
   padding-bottom: 10%;
   background-color: E5E7EB;
+  flex-direction: column;
 }
 
 .quote {
-  border: solid 3px pink;
+  display: flex;
   margin-left: 20%;
   margin-right: 20%;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  background-color: #E5E7EB;
+  margin-bottom: 0;
 }
 
 .author {
-  border: solid;
-  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight: bold;
+  margin-top: 0;
+  font-size: 24px;
+  color:#1f2937;
 }
 
 .cta-container {
@@ -140,6 +167,7 @@ html {
   margin: 2rem auto;
   padding: 4rem 6rem;
 }
+
 
 #cta-id,
 #cta-text {
@@ -157,8 +185,12 @@ html {
 }
 
 #cta-button {
-  display: flex;
-  margin-right: 2rem;
+  border-radius: 8px;
+  padding: 0.75rem 2rem;
+  background-color: #3882f6;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
 }
 
 .end {
